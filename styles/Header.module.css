@@ -1,0 +1,68 @@
+/* h1,h2 {
+    font-weight: 300;
+    line-height: 1.2;   
+   }
+    */
+   /* p { 
+   margin: 10px 0;    
+   } */
+   
+   /* img {
+   width: 100%;    
+   }
+    */
+   /* Navbar */
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+   }
+   .navbar .logo {
+       margin: 10px 50px;
+       font-weight: 300;
+       line-height: 1.2;   
+   }
+   
+   .navbar a {
+   display: flex;
+   padding: 10px auto;
+   margin: 0 5px;
+   text-decoration: none;
+   
+   
+   }
+   
+   .navbar ul {
+   
+   list-style: none;
+   }
+   .navbar ul li {
+       margin: 15px 35px;
+       color: black;
+   }
+   .navbar ul li a {
+       color: black;
+   }
+
+   .headerElementsLink {
+    color: rgb(51, 51, 51);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0.5rem 0px;
+   }
+
+   .headerElementsLink::after {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background: url('https://dogs-thiagoc0sta.vercel.app/Assets/usuario.svg') center center no-repeat;
+    margin-left: 0.5rem;
+    position: relative;
+    top: -1px;
+   }
+   
+   
